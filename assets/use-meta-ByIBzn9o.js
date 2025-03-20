@@ -1,1 +1,0 @@
-import{a as i,w as o,bl as e,ao as l,an as u,x as v,bm as n}from"./index-Djj-aHW6.js";function d(t){{const a={active:!0};if(typeof t=="function"){const c=i(t);a.val=c.value,o(c,s=>{a.val=s,a.active===!0&&e()})}else a.val=t;n.push(a),e(),l(()=>{a.active=!0,e()}),u(()=>{a.active=!1,e()}),v(()=>{n.splice(n.indexOf(a),1),e()})}}export{d as u};
