@@ -1,1 +1,0 @@
-import{a as i,w as o,bq as e,ar as u,aq as l,x as v,br as c}from"./index-CgD1luD0.js";function f(t){{const a={active:!0};if(typeof t=="function"){const n=i(t);a.val=n.value,o(n,s=>{a.val=s,a.active===!0&&e()})}else a.val=t;c.push(a),e(),u(()=>{a.active=!0,e()}),l(()=>{a.active=!1,e()}),v(()=>{c.splice(c.indexOf(a),1),e()})}}export{f as u};
