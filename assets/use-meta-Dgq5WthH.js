@@ -1,1 +1,0 @@
-import{a as i,w as o,bq as e,ao as u,an as l,x as v,br as n}from"./index-r0AinT0q.js";function r(t){{const a={active:!0};if(typeof t=="function"){const c=i(t);a.val=c.value,o(c,s=>{a.val=s,a.active===!0&&e()})}else a.val=t;n.push(a),e(),u(()=>{a.active=!0,e()}),l(()=>{a.active=!1,e()}),v(()=>{n.splice(n.indexOf(a),1),e()})}}export{r as u};
